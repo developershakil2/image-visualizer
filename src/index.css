@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body{
+    background-color:rgba(235, 231, 231, 0.621)
+}
+
+.canva_wrapper::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar */
+    height: 0;
+  }
+  
+  /* Optional: Hide scrollbar track if you want */
+  .canva_wrapper::-webkit-scrollbar-track {
+    display: none; /* Hide scrollbar track */
+  }
